@@ -1,41 +1,86 @@
-# ML-Prediction-of-CVD
+# ML Prediction of CVD
+
+## By Jordan Flood 
 
 # Data Analysis and Predictive Modeling of Cardiovascular Disease (CVD)
 
-**By Jordan Flood**
+## Overview
+The project **"Data Analysis of Cardiovascular Disease (CVD)"** aims to analyze the factors contributing to cardiovascular disease and build a machine-learning model to predict the likelihood of an individual developing CVD. The analysis was performed using a dataset containing over 70,000 individual records from the Kaggle platform. The findings provide insights into various lifestyle, genetic, and environmental factors that play a role in cardiovascular health.
 
-## Introduction
-Cardiovascular disease (CVD) is the leading cause of death globally, claiming over 17 million lives annually. Despite significant advancements in healthcare, the burden of CVD remains high due to lifestyle factors, aging, and genetic predispositions. In this article, we will explore how data analysis and machine learning can provide actionable insights and build predictive models to improve cardiovascular health.
+## Dataset
+- **Source:** [Cardiovascular Disease Dataset (Kaggle)](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
+- **Size:** 70,000 individuals
+- **Objective:** To discover the factors influencing CVD and build a predictive model
 
-We will use a dataset containing over 70,000 individual records sourced from Kaggle to identify key factors influencing CVD. Our goal is to build a predictive model that can accurately determine whether an individual is at risk of developing cardiovascular disease.
+## Process Flow
+1. **Discovery & Objective Definition**
+   - **Objective:** Identify key factors contributing to CVD and build a predictive model
 
-## Data Collection & Preprocessing
-The dataset used in this project was sourced from Kaggle, comprising over 70,000 individual records with various attributes like age, BMI, blood pressure, and lifestyle factors.
+2. **Data Cleaning**
+   - Handling missing values and outliers
+   - Normalization and scaling of numerical data
 
-### Dataset Features
-- **Age:** Age of the individual
-- **BMI:** Body Mass Index
-- **Blood Pressure:** Systolic and diastolic blood pressure
-- **Lifestyle Factors:** Smoking, alcohol consumption, physical activity
+3. **Exploratory Data Analysis**
+   - Identify correlations between variables and CVD
+   - Visualize the relationships using various graphs
 
-### Data Cleaning
-1. Handled missing values by removing rows with NaN values.
-2. Normalized numerical data to standardize ranges.
+4. **Model Building & Testing**
+   - Build machine learning models to predict CVD
+   - Optimize and evaluate the model performance
 
-## Exploratory Data Analysis (EDA)
-We conducted EDA to identify the relationships between various factors and CVD. Here are some key findings:
+5. **Results Interpretation & Reporting**
+   - Interpret key findings and draw actionable recommendations
+   - Visualize insights and communicate results effectively
 
-### Age
-- Increased CVD cases are noticeable between ages 50-55.
-- Aging causes heart muscles to thicken and arteries to stiffen, increasing blood pressure.
+## Key Findings
+1. **Age:**
+   - Increased CVD cases are noticeable between ages 50-55.
+   - Aging causes heart muscles to thicken and arteries to stiffen, increasing blood pressure.
 
-### BMI
-- Higher BMI is associated with a higher risk of CVD.
-- Extra strain on the heart due to high BMI leads to insulin resistance and type 2 diabetes.
+2. **Body Mass Index (BMI):**
+   - Higher BMI is associated with a higher risk of CVD.
+   - Extra strain on the heart due to high BMI leads to insulin resistance and type 2 diabetes.
 
-...
+3. **Blood Pressure:**
+   - Elevated blood pressure (hypertension) is a major risk factor for CVD.
+   - Increased workload due to hypertension can damage artery walls and cause heart attacks.
 
-## Conclusion
-The comprehensive analysis and subsequent development of a machine-learning model have provided valuable insights into the relationship between cardiovascular disease (CVD) and various factors such as age, BMI, blood pressure, and lifestyle choices. Our model's ability to predict CVD occurrence with about 72% accuracy underscores the significant potential of machine learning in enhancing our understanding and management of heart health.
+4. **Lifestyle:**
+   - Physical inactivity, smoking, and heavy alcohol consumption contribute to increased CVD risk.
 
-...
+## Model Development & Evaluation
+1. **Model Building:**
+   - The dataset was used to train a machine-learning model to predict CVD.
+   - Features used included age, BMI, blood pressure, cholesterol, and lifestyle factors.
+
+2. **Model Performance:**
+   - The predictive model achieved an accuracy of approximately 72%.
+
+3. **Feature Importance:**
+   - Age, BMI, and blood pressure were the most significant features.
+
+## Recommendations
+1. **Enhanced Public Awareness:**
+   - Promote lifestyle changes like a balanced diet and regular physical activity.
+   - Early screening and intervention should be encouraged.
+
+2. **Integration into Clinical Practice:**
+   - Incorporate predictive models in routine clinical assessments.
+
+3. **Lifestyle Interventions:**
+   - Expand programs to reduce risk factors through accessible lifestyle changes.
+
+4. **Expand Sample Size:**
+   - Use a larger and more diverse sample size for better generalizability.
+
+5. **Incorporate More Variables:**
+   - Add more detailed variables, such as specific cholesterol levels (LDL, HDL).
+
+## Repository Structure
+```plaintext
+/
+|-- notebooks/
+|   |-- eda-CVD-final.ipynb
+|-- data/
+|   |-- Data Analysis of Cardiovascular Disease.pdf
+|-- README.md
